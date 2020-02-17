@@ -14,5 +14,196 @@
                 Event for learn new technologies in 2020.
             </p>
         </div>
+        <form action="#" id="survey-form">
+            <div class="form-group">
+                <label for="" id="name-label">Full Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    id="name"
+                    class="form-control"
+                    spellcheck="false"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="" id="email-label">Email</label>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    id="email"
+                    class="form-control"
+                    spellcheck="false"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="" id="number-label"
+                    >Age
+                    <small>(optional)</small>
+                </label>
+                <input
+                    type="number"
+                    name="age"
+                    placeholder="Enter your age"
+                    id="number"
+                    min="16"
+                    max="99"
+                    class="form-control"
+                    spellcheck="false"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label for="" id="number-label"
+                    >What do you want to specialize in?
+                </label>
+                <select name="specialize" id="dropdown" class="form-control">
+                    <option value="" disabled selected>Select</option>
+                    <option value="">Software development</option>
+                    <option value="">Design & UX</option>
+                    <option value="">Marketing</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="" id="number-label"
+                    >How did you hear about the event?
+                </label>
+                <div class="form-group-radio">
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="wordofmouth"
+                            value="friends"
+                            id=""
+                        />
+                        Friends
+                    </div>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="wordofmouth"
+                            value="teachers"
+                            id=""
+                        />
+                        Teachers
+                    </div>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="wordofmouth"
+                            value="social"
+                            id=""
+                        />
+                        Social Network
+                    </div>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="wordofmouth"
+                            value="advertisement"
+                            id=""
+                        />
+                        Advertisement
+                    </div>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            name="wordofmouth"
+                            value="other"
+                            id=""
+                        />
+                        Other
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" id="number-label"
+                    >What topics are you interest in?
+                </label>
+                <div class="form-group-checkbox">
+                    <div class="checkbox-option">
+                        <input
+                            type="checkbox"
+                            name="interests"
+                            value="databases"
+                            id=""
+                        />
+                        Databases
+                    </div>
+                    <div class="checkbox-option">
+                        <input
+                            type="checkbox"
+                            name="interests"
+                            value="ai"
+                            id=""
+                        />
+                        Artificial Intelligence
+                    </div>
+                    <div class="checkbox-option">
+                        <input
+                            type="checkbox"
+                            name="interests"
+                            value="ux"
+                            id=""
+                        />
+                        UX Design
+                    </div>
+                    <div class="checkbox-option">
+                        <input
+                            type="checkbox"
+                            name="interests"
+                            value="marketing"
+                            id=""
+                        />
+                        Digital Marketing
+                    </div>
+                    <div class="checkbox-option">
+                        <input
+                            type="checkbox"
+                            name="interests"
+                            value="blockchain"
+                            id=""
+                        />
+                        Blockchain
+                    </div>
+                    <div class="checkbox-option">
+                        <input
+                            type="checkbox"
+                            name="interests"
+                            value="videogames"
+                            id=""
+                        />
+                        Videogames
+                    </div>
+                    <div class="checkbox-option">
+                        <input
+                            type="checkbox"
+                            name="interests"
+                            value="javascript"
+                            id=""
+                        />
+                        JavaScript Development
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" id="number-label"
+                    >Any comments or suggestions?
+                </label>
+                <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="10"
+                    placeholder="Enter your comments here"
+                ></textarea>
+            </div>
+            <button id="submit" type="submit">
+                Submit
+            </button>
+        </form>
     </body>
 </html>
